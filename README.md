@@ -10,9 +10,8 @@
 ### Login Page
 ![image](https://github.com/chanmyaelwin2822/Career-Recommendation-System/assets/52887811/003411b2-d1d7-460d-bfb6-e2dbb5fff6b6)
 ### User Profile Page
-![image](https://github.com/chanmyaelwin2822/Career-Recommendation-System/assets/52887811/5db31957-d810-4906-85d1-db3418e23893)
+![image](https://github.com/chanmyaelwin2822/Career-Recommendation-System/assets/52887811/711b3fde-e40b-4b46-a7b8-dcc0227fd145)
 ### Career Form 
 ![image](https://github.com/chanmyaelwin2822/Career-Recommendation-System/assets/52887811/e9a9d751-70be-438c-b39b-e8ddf80c7b25)
 ### Result Page
-![image](https://github.com/chanmyaelwin2822/Career-Recommendation-System/assets/52887811/521088e7-407c-4d98-93d8-ce2e9175715b)
 ![image](https://github.com/chanmyaelwin2822/Career-Recommendation-System/assets/52887811/ae7fdb32-4ce4-47e3-95c2-9163be6cbe46)
