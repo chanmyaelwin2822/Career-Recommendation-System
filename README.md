@@ -13,3 +13,4 @@
 ![image](https://github.com/chanmyaelwin2822/Career-Recommendation-System/assets/52887811/5db31957-d810-4906-85d1-db3418e23893)
 
 
+![image](https://github.com/chanmyaelwin2822/Career-Recommendation-System/assets/52887811/521088e7-407c-4d98-93d8-ce2e9175715b)
