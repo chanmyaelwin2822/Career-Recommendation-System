@@ -1,0 +1,25 @@
+.footer {
+  padding: 5px 0;
+}
+.footer-content {
+  align-items: center;
+  padding: 8px 0;
+}
+.text-color {
+  color: #7c00b5;
+}
+@media screen and (min-width: 768px) {
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0;
+    column-gap: 20px;
+    text-align: left;
+    justify-content: space-between;
+  }
+  .footer-content p {
+    text-align: left;
+  }
+  .footer-content span {
+    text-align: right;
+  }
+}

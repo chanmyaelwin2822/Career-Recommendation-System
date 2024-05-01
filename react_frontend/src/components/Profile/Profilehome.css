@@ -1,0 +1,127 @@
+:root {
+  --white-color: #ffffff;
+  --dark-color: #171819;
+
+  --font-weight-bold: bold;
+
+  --h1-font-size: 42px;
+
+  --border-radius-large: 100px;
+  --border-radius-small: 5px;
+  --clr-crazy-blue: #7c00b5;
+  --gradient: linear-gradient(
+    45deg,
+    rgba(87, 100, 222, 1) 0%,
+    var(--clr-crazy-blue) 100%
+  );
+}
+
+/*---------------------------------------
+     TYPOGRAPHY              
+  -----------------------------------------*/
+
+h1 {
+  color: var(--title-color);
+  font-size: var(--h1-font-size);
+  font-family: var(--title-font-family);
+  line-height: inherit;
+}
+
+/* BUTTON */
+.custom-btn {
+  /* background: linear-gradient(
+    to left,
+    var(--clr-robin-blue),
+    var(--clr-crazy-blue)
+  ); */
+  /* /* background-clip: text; */
+  color: var(--dark-color);
+  background: var(--white-color);
+
+  width: fit-content;
+  /* margin-top: 30px; */
+  border: 2px solid var(--dark-color);
+  border-radius: var(--border-radius-large);
+  padding: 12px 26px 14px 20px;
+  /* color: var(--dark-color); */
+  font-family: var(--title-font-family);
+  font-size: var(--p-font-size);
+  white-space: nowrap;
+}
+
+.custom-btn.btn-bg {
+  /* color: var(--gradient); */
+  border-color: var(--gradient);
+  transition: all 0.3s ease;
+
+  font-weight: bold;
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+  /* background: var(--dark-color); */
+  color: var(--white-color);
+  border-color: transparent;
+}
+
+/*---------------------------------------
+     GENERAL               
+  -----------------------------------------*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--link-color);
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: var(--secondary-color);
+  outline: none;
+  text-decoration: none;
+}
+
+.section-padding {
+  padding: 8em 0;
+}
+.section-padding-half {
+  padding: 4em 0;
+}
+
+/*---------------------------------------
+     HERO              
+  -----------------------------------------*/
+
+.hero {
+  position: relative;
+  padding: 5em 0;
+  overflow: hidden;
+}
+
+.hero-bg {
+  /* background: var(--dark-color); */
+  background-color: #000;
+}
+
+.hero-image {
+  position: relative;
+  top: 2em;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}

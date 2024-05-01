@@ -1,0 +1,11 @@
+.survey-container {
+  width: 100%;
+  height: auto;
+  /* height: 100vh; */
+  /* background-color: aqua; */
+  /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
+}
+
+.survey {
+  margin: 0;
+}

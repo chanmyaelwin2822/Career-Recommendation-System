@@ -1,0 +1,92 @@
+:root {
+  --fnt-base: "Jost", sans-serif;
+  --clr-robin-blue: #5764de;
+  --clr-crazy-blue: #7c00b5;
+}
+.header-container {
+  max-width: 1500px;
+  padding: 0 2rem;
+  margin: 0 auto;
+  position: relative;
+}
+.header {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../../assets/images/header_main_img.jpg") center/cover no-repeat;*/
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.5));
+
+  /* background: url("https://c20968e4.rocketcdn.me/wp-content/uploads/2020/08/Careers.jpg"); */
+  background-repeat: no-repeat;
+  background-position: right bottom;
+
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+.header-content {
+  align-items: start;
+  padding: 50px 0px;
+}
+.header-content .text-lead {
+  margin: 3rem 0 4rem 0;
+  padding-top: 2rem;
+  padding-right: 8rem;
+  text-align: justify;
+  line-height: 1.8rem;
+}
+.text-lead {
+  font-size: 25px !important;
+}
+.header-title {
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 1.2;
+  background: linear-gradient(
+    to left,
+    var(--clr-robin-blue),
+    var(--clr-crazy-blue)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .header-btn {
+  background-color: #7c00b5;
+} */
+.header-btn span {
+  margin-left: 10px;
+}
+.header-btn {
+  background: linear-gradient(
+    45deg,
+    rgba(87, 100, 222, 0.5) 0%,
+    var(--clr-crazy-blue) 100%
+  );
+  color: var(--clr-white);
+  text-transform: uppercase;
+  padding: 12px 24px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+}
+.header-btn:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(87, 100, 222, 1) 0%,
+    var(--clr-crazy-blue) 100%
+  );
+}
+@media screen and (min-width: 600px) {
+  .header-title {
+    font-size: 88px;
+  }
+  .header-content * {
+    max-width: 920px;
+  }
+}
+
+.home-bg {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  width: 650px;
+  height: 400px;
+  margin: 2rem;
+  padding: 1rem 3rem;
+}
