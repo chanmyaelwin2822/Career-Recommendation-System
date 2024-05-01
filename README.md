@@ -1,7 +1,7 @@
 # Career-Recommendation-System
     This career recommendation system is a system that will help students to choose their career path or field 
     based on their preferences and interest using a machine learning algorithm, namely K-Nearest Neighbour. 
-    The application used technologies React js and Java Spring Framework. 
+    The application used technologies ReactJs for frontend, Java Spring Framework for backend and Python for Machine learning. 
     The project uses the career dataset that includes 19999 rows and 39 columns.  Some irrelevant features are dropped out and the final dataset 
     contain 23 features. The dataset contains the necessary hard skills, soft skills, interests, personality and the labeled career role.
  
